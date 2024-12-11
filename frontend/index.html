@@ -20,7 +20,7 @@
      <br>
      <!-- Main -->
      <div class="flex-grow container mx-auto mt-10 px-4 sm:px-0">
-        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg">
+        <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md transition-transform transform hover:scale-105 flex flex-col">
             <!-- Introdcution section -->
             <div class="text-center">
                 <h2 class="text-2xl font-semibold mb-4">Welcome to AI Blog Generator</h2>
@@ -29,6 +29,15 @@
                     Simply enter the link to the YouTube video below and let the AI create the content for you!
                 </p>
             </div>
+            <br>
+            <!-- Youtube section -->
+             <div>
+                <h2 class="text-xl mb-4 font-semibold">Enter Youtube URL</h2>
+                <div class="flex space-x-4">
+                    <input id="youtubeLink" type="url" placeholder="Paste Youtube Link">
+
+                </div>
+             </div>
         </div>
      </div>
 </body>
