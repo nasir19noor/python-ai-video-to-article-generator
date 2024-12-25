@@ -39,7 +39,6 @@ lxml
 multidict
 openai
 psycopg2
-psycopg
 psycopg2-binary
 pytube
 requests
