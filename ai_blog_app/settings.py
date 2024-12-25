@@ -86,7 +86,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'ai-video-to-article-converter',
         'USER': 'postgres',
-        'PASSWORD': '@Kun4$!r',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432'
     }
