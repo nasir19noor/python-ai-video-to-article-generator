@@ -43,5 +43,6 @@ psycopg2-binary
 pytube
 requests
 sqlparse
+yt-dlp
 webencodings
 websockets
